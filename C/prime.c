@@ -9,4 +9,5 @@ int main(){
 }
 void okay(){
     printf("Hello");
+    printf("ugly");
 }
