@@ -18,5 +18,4 @@ int main(){
             printf("%d ",i);
         }
     }
-    printf("\nEnd of program");
 }
