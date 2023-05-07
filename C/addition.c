@@ -5,10 +5,8 @@ int add(int a, int b){
 }
 int main(){
     int x,y;
-    printf("Enter first number: ");
-    scanf("%d",&x);
-    printf("Enter second number: ");
-    scanf("%d",&y);
+    printf("Enter the numbers: ");
+    scanf("%d %d",&x,&y);
     printf("The sum is %d",add(x,y));
     return 0;
 }
