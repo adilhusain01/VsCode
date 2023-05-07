@@ -1,4 +1,4 @@
-#prime numbers without using functions
+#prime numbers without using functions 07.05.2023
 flag=0
 x=int(input("Enter a number: "))
 if (x<=1):
