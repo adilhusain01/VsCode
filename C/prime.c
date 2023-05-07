@@ -7,3 +7,6 @@ int main(){
     printf("%d",a);
     printf("24");
 }
+void okay(){
+    printf("Hello");
+}
