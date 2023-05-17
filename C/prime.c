@@ -2,6 +2,7 @@
 #include <stdio.h>
 int main(){
     int x=0,flag=0;
+    printf("\n\n\t\tIts a program to check,\n\t\twhether the number is prime or not\n\n\n");
     printf("Enter a number: ");
     scanf("%d",&x);
     if(x<=1){
@@ -16,9 +17,9 @@ int main(){
             }
         }
         if(flag==0){
-            printf("It is a prime number");
+            printf("\n\t\tIt is a prime number\n\n");
         } else if (flag==1){
-            printf("It is not a prime number");
+            printf("\n\t\tIt is not a prime number\n\n");
         }
     }
     return 0;
