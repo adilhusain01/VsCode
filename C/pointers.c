@@ -4,7 +4,7 @@
 #include <math.h>
 
 // SUM  OF TWO NUMBERS USING POINTERS
-
+/*
 int summation(int *x,int *y, int *sum){
     *sum = ((*x) + (*y));
     return *sum;
@@ -22,6 +22,7 @@ int main(){
     scanf("%d",B);
     printf("\n\t\tThe sum of both numbers is : %d\n\n",summation(A,B,SUM));
 }
+*/
 
 
 
@@ -90,3 +91,48 @@ int main()
 */
 
 //IN THIS *P IS A DANGLING POINTER
+/*
+int main(){
+    int arr[]={1,2,3,4,5,6,7,8,9};
+
+    int *p=arr,*p2=&arr[8];
+    printf("\nFirst element of array is : %d",*p); //Pointer print
+    printf("\nSecond element of array is : %d",*(p+1)); //Address increment
+    p++;
+    printf("\nAgain second element of array is : %d",*p); //Again address increment
+    p++;
+    printf("\nThird one is : %d",*p); //Again address increment
+    p--;
+    printf("\nAgain second one is : %d",*p); //Address Decrement
+    p--;
+    printf("\nPointer sum : %d\n",*p+10); //Pointer sum
+
+    printf("\nAdress substraction : %d",p2-p); //Pointer substraction in an array
+    printf("\nInteger substraction in address : %d\n",*(p2-8));
+
+    printf("\nif else variable : %s",(*p<*(p+1)?"True":"False"));
+    printf("\nif else address : %s\n",(p<(p+1)?"True":"False"));
+
+    //Simple arithmatic on variable directly
+    printf("\nSummation : %d",*p+*p);
+    printf("\nMultiplication : %d",(*p)*(*p));
+    printf("\nQuotient : %d",(*p)/(*p));
+    printf("\nRemainder : %d\n",(*p)%(*p));
+
+    //Bitwise
+    printf("\nOR : %d",(*p-1)|(*p));
+    printf("\nAND : %d",(*p-1)&(*p));
+    printf("\nXOR : %d\n",(*p-1)^(*p));
+}
+*/
+
+
+//Some cool tasks we can do
+/*
+int main(){
+    int arr[]={1,2,3,4,5};
+    int *p=arr;
+    printf("%d",*(p+4));
+    printf("\n%d",p[4]);
+}
+*/
