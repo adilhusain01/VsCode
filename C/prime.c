@@ -1,5 +1,6 @@
 //Finding Prime numbers in a range without using functions 07.05.2023
 #include <stdio.h>
+
 int main(){
     int x=0,flag=0;
     printf("\n\n\t\tIts a program to check,\n\t\twhether the number is prime or not\n\n\n");

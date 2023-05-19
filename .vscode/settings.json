@@ -1,5 +1,11 @@
 {
     "dataworkspace.excludedProjects": [
         "hi/hi.sqlproj"
-    ]
+    ],
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "aes.h": "c",
+        "rand.h": "c",
+        "sha.h": "c"
+    }
 }
