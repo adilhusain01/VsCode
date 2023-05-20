@@ -44,7 +44,7 @@ int main()
 }
 */
 
-
+/*
 {
 int a=123;
 char str[100];
@@ -58,3 +58,39 @@ itoa(a,str,8);
 printf("\n Octal value:%s",str);
 return 0;
 }
+*/
+
+/*
+struct site {
+    char name[20];
+    int pages;
+};
+
+{
+    struct site s;  // Declare a structure variable
+
+    // Assign values to the structure members
+    strcpy(s.name, "GeeksQuiz");
+    s.pages = 200;
+
+    struct site *ptr;  // Declare a pointer to the structure
+    ptr = &s;  // Assign the address of the structure variable to the pointer
+
+    printf("%d\n", ptr->pages);  // Access structure member using the pointer
+    printf("%s\n", ptr->name);
+
+    getchar();
+    return 0;
+}
+*/
+
+
+struct {
+		short s[5];
+		union{
+			float y;
+			long z;
+		}u;
+}t;
+
+Assume that the objects of type short,float and long occupy 2,4,8 bytes respectively, so the memory requirement for variable t, ignoring alignment considerations is :
