@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main()
 
 
@@ -24,3 +25,36 @@ int main()
     return 0;
 }
 */
+
+
+/*
+{
+	char str1[15],str2[15];
+	int n;
+	printf("\nEnter Source String:");
+	gets(str1);
+	printf("\nEnter Destination String:");
+	gets(str2);
+	printf("Enter number of characters to copy in destination string:");
+	scanf("%d",&n);
+	strncpy(str2,str1,n);
+	printf("Source string is:%s",str1);
+	printf("\nDestination String is:%s",str2);
+	return 0;
+}
+*/
+
+
+{
+int a=123;
+char str[100];
+itoa(a,str,2);
+printf("\n Binary value:%s",str);
+itoa(a,str,10);
+printf("\n Decimal value:%s",str);
+itoa(a,str,16);
+printf("\n Hexadecimal value:%s",str);
+itoa(a,str,8);
+printf("\n Octal value:%s",str);
+return 0;
+}
