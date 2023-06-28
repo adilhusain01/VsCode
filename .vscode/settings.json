@@ -7,5 +7,6 @@
         "aes.h": "c",
         "rand.h": "c",
         "sha.h": "c"
-    }
+    },
+    "liveServer.settings.port": 5501
 }
