@@ -3,7 +3,7 @@ from PIL import ImageTk,Image
 
 root= Tk()
 root.title("Image,Exit")
-root.iconbitmap('space5.ico')
+root.iconbitmap('CalmCodes.ico')
 
 button1=Button(root, text="Exit!", command=root.quit) 
 button1.pack()

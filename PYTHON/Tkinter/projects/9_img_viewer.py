@@ -3,18 +3,18 @@ from PIL import ImageTk, Image
 
 root=Tk()
 
-img1=ImageTk.PhotoImage(Image.open('1.jpg'))
-img2=ImageTk.PhotoImage(Image.open('2.jpg'))
-img3=ImageTk.PhotoImage(Image.open('3.jpg'))
-img4=ImageTk.PhotoImage(Image.open('4.jpg'))
-img5=ImageTk.PhotoImage(Image.open('5.jpg'))
-img6=ImageTk.PhotoImage(Image.open('6.jpg'))
-img7=ImageTk.PhotoImage(Image.open('7.jpg'))
-img8=ImageTk.PhotoImage(Image.open('8.jpg'))
-img9=ImageTk.PhotoImage(Image.open('9.jpg'))
-img10=ImageTk.PhotoImage(Image.open('10.jpg'))
-img11=ImageTk.PhotoImage(Image.open('11.jpg'))
-img12=ImageTk.PhotoImage(Image.open('12.jpg'))
+img1=ImageTk.PhotoImage(Image.open('images/1.jpg'))
+img2=ImageTk.PhotoImage(Image.open('images/2.jpg'))
+img3=ImageTk.PhotoImage(Image.open('images/3.jpg'))
+img4=ImageTk.PhotoImage(Image.open('images/4.jpg'))
+img5=ImageTk.PhotoImage(Image.open('images/5.jpg'))
+img6=ImageTk.PhotoImage(Image.open('images/6.jpg'))
+img7=ImageTk.PhotoImage(Image.open('images/7.jpg'))
+img8=ImageTk.PhotoImage(Image.open('images/8.jpg'))
+img9=ImageTk.PhotoImage(Image.open('images/9.jpg'))
+img10=ImageTk.PhotoImage(Image.open('images/10.jpg'))
+img11=ImageTk.PhotoImage(Image.open('images/11.jpg'))
+img12=ImageTk.PhotoImage(Image.open('images/12.jpg'))
 
 list1=[img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12]
 list2=[1,2,3,4,5,6,7,8,9,10,11,12]
